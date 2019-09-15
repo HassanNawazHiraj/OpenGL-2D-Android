@@ -72,17 +72,17 @@ void drawEyes() {
 
 void drawBody() {
 	glColor3ub(164, 198, 57);
-	drawBox(-0.5, -0.14, 1.0, 0.5);
-	drawCircle(0.401, -0.11, 0.1, 30);
-	drawCircle(-0.401, -0.11, 0.1, 30);
-	drawBox(-0.425, -0.209, 0.85, 0.2);
+	drawBox(-0.5, -0.43, 1.0, 0.8);
+	drawCircle(0.401, -0.41, 0.1, 30);
+	drawCircle(-0.401, -0.41, 0.1, 30);
+	drawBox(-0.425, -0.509, 0.85, 0.2);
 }
 
 void drawLegs() {
-	drawBox(-0.3, -0.5, 0.25, 0.4);
-	drawBox(0.05, -0.5, 0.25, 0.4);
-	drawCircle(-0.175, -0.495, 0.124, 30);
-	drawCircle(0.175, -0.495, 0.124, 30);
+	drawBox(-0.3, -0.7, 0.25, 0.4);
+	drawBox(0.05, -0.7, 0.25, 0.4);
+	drawCircle(-0.175, -0.695, 0.124, 30);
+	drawCircle(0.175, -0.695, 0.124, 30);
 }
 
 void drawHands() {
